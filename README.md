@@ -2,23 +2,13 @@
 
 # 🤖 AI21 Maestro + Bright Data 模板
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Node.js 16+](https://img.shields.io/badge/node.js-16+-green.svg)](https://nodejs.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/)
-[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![HeroUI](https://img.shields.io/badge/HeroUI-3b82f6?style=flat&logo=react&logoColor=white)](https://heroui.com/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![许可证：MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![Node.js 16+](https://img.shields.io/badge/node.js-16+-green.svg)](https://nodejs.org/) [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)](https://fastapi.tiangolo.com/) [![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/) [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) [![HeroUI](https://img.shields.io/badge/HeroUI-3b82f6?style=flat&logo=react&logoColor=white)](https://heroui.com/) [![欢迎提交 PR](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-🚀 面向生产的 AI 智能体开发模板，内置网页数据访问能力
+**🚀 用于构建可访问网络的 AI 智能体的生产就绪模板**
 
-将 AI21 的 Maestro 平台与 Bright Data 的网页采集能力相结合，构建可研究与分析实时网页数据的强大 AI 智能体。
+*将 AI21 的 Maestro 平台与 Bright Data 的网页爬虫能力相结合，创建可研究和分析实时网络数据的强大 AI 智能体。*
 
-[快速开始](#-快速开始) •
-[演示](#-演示) •
-[API 文档](#-api-文档) •
-[参与贡献](#-参与贡献)
+[快速入门](#-快速开始) • [演示](#-演示) • [文档](#-api-文档) • [参与贡献](#-参与贡献)
 
 </div>
 
@@ -26,30 +16,30 @@
 
 ## 📸 演示
 
-### AI 智能体控制台
-为不同人格与预算配置并运行 AI 智能体
+### AI 智能体控制面板
+*配置并运行具有不同个性和预算的 AI 智能体*
 
-<img width="1345" alt="AI 智能体控制台 - 配置智能体、查看实时结果并管理运行历史" src="https://github.com/user-attachments/assets/296de2a5-53cb-450b-adf0-699668f4211b" />
+<img width="1345" alt="AI 智能体控制面板 - 配置智能体、查看实时结果并管理运行历史记录" src="https://github.com/user-attachments/assets/296de2a5-53cb-450b-adf0-699668f4211b" />
 
-### 交互式 API 文档
-通过 FastAPI 的自动文档探索并测试全部接口
+### 交互式 API 文档 
+*使用 FastAPI 自动生成的文档探索并测试所有端点*
 
-<img width="1483" alt="FastAPI 交互式文档 - 借助自动校验测试 API 端点" src="https://github.com/user-attachments/assets/ba04140f-0d37-4447-9362-ad8add3c94ad" />
+<img width="1483" alt="FastAPI 交互式文档 - 通过自动验证测试 API 端点" src="https://github.com/user-attachments/assets/ba04140f-0d37-4447-9362-ad8add3c94ad" />
 
 ---
 
-## ✨ 特性
+## ✨ 功能
 
-| 特性 | 说明 |
-|------|------|
-| 🤖 AI 智能体控制台 | 为不同人格与预算配置并运行 AI 智能体 |
-| 🌐 网页数据访问 | 集成 Bright Data 免费与专业网页采集工具 |
-| 📊 实时结果 | 实时观看智能体执行并查看结果 |
-| 📝 运行历史 | 以详细日志与结果追踪所有运行 |
-| 🎨 优雅界面 | 基于 HeroUI 的现代自适应界面 |
-| ⚡ 高性能 API | 基于 FastAPI 的高性能异步后端 |
-| 🔒 生产可用 | 环境配置、错误处理与安全最佳实践 |
-| 📚 自动文档 | FastAPI 自动生成的交互式 OpenAPI 文档 |
+| 功能 | 说明 |
+|---------|-------------|
+| 🤖 **AI 智能体控制面板** | 配置并运行具有不同个性和预算的 AI 智能体 |
+| 🌐 **网络数据访问** | 集成 Bright Data 的免费及专业网页爬虫工具 |
+| 📊 **实时结果** | 观察智能体的工作过程，并实时查看结果 |
+| 📝 **运行历史记录** | 通过详细日志和结果跟踪智能体的所有运行记录 |
+| 🎨 **精美 UI** | 使用 HeroUI 组件构建的现代化响应式界面 |
+| ⚡ **高速 API** | 支持异步操作的高性能 FastAPI 后端 |
+| 🔒 **生产就绪** | 环境配置、错误处理和安全最佳实践 |
+| 📚 **自动生成文档** | 通过 FastAPI 自动生成 OpenAPI 交互式 API 文档 |
 
 ---
 
@@ -58,16 +48,10 @@
 <div align="center">
 
 ### 后端
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![AI21](https://img.shields.io/badge/AI21%20Maestro-0066CC?style=for-the-badge)
-![Bright Data](https://img.shields.io/badge/Bright%20Data-FF6B35?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![AI21](https://img.shields.io/badge/AI21%20Maestro-0066CC?style=for-the-badge) ![Bright Data](https://img.shields.io/badge/Bright%20Data-FF6B35?style=for-the-badge)
 
 ### 前端
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
 </div>
 
@@ -77,158 +61,158 @@
 
 - [🤖 AI21 Maestro + Bright Data 模板](#-ai21-maestro--bright-data-模板)
   - [📸 演示](#-演示)
-    - [AI 智能体控制台](#ai-智能体控制台)
+    - [AI 智能体控制面板](#ai-智能体控制面板)
     - [交互式 API 文档](#交互式-api-文档)
-  - [✨ 特性](#-特性)
-  - [🛠️ 技术栈](#-技术栈)
+  - [✨ 功能](#-功能)
+  - [🛠️ 技术栈](#️-技术栈)
     - [后端](#后端)
     - [前端](#前端)
   - [📋 目录](#-目录)
   - [🚀 快速开始](#-快速开始)
-    - [前置条件](#前置条件)
+    - [前置要求](#前置要求)
     - [后端设置](#后端设置)
     - [前端设置](#前端设置)
   - [📖 API 文档](#-api-文档)
-    - [关键端点](#关键端点)
+    - [主要端点](#主要端点)
   - [🔧 可用工具](#-可用工具)
     - [🆓 免费工具（快速模式）](#-免费工具快速模式)
-    - [💎 专业工具（付费）](#-专业工具付费)
-  - [⚙️ 配置](#-配置)
-    - [智能体人格](#智能体人格)
+    - [💎 专业工具（高级版）](#-专业工具高级版)
+  - [⚙️ 配置](#️-配置)
+    - [智能体个性](#智能体个性)
     - [预算级别](#预算级别)
     - [环境变量](#环境变量)
-  - [🏗️ 项目结构](#-项目结构)
+  - [🏗️ 项目结构](#️-项目结构)
   - [🧪 开发](#-开发)
     - [后端开发](#后端开发)
     - [前端开发](#前端开发)
   - [🤝 参与贡献](#-参与贡献)
     - [开发流程](#开发流程)
-    - [拉取请求指南](#拉取请求指南)
+    - [Pull Request 指南](#pull-request-指南)
   - [📄 许可证](#-许可证)
   - [🙏 致谢](#-致谢)
-  - [🔗 相关链接](#-相关链接)
+  - [🔗 实用链接](#-实用链接)
 
 ---
 
 ## 🚀 快速开始
 
-### 前置条件
+### 前置要求
 
-开始之前，请确保已安装：
+开始之前，请确保已安装以下软件：
 
 - ![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python&logoColor=white) Python 3.8 或更高版本
 - ![Node.js](https://img.shields.io/badge/Node.js-16+-green?logo=node.js&logoColor=white) Node.js 16 或更高版本
 - 🔑 [AI21 Labs API 密钥](https://studio.ai21.com/) - 免费注册
-- 🌐 [Bright Data 令牌](https://www.bright.cn/) - 获取网页采集访问权限
+- 🌐 [Bright Data 令牌](https://www.bright.cn/) - 获取网页爬虫访问权限
 
 ### 后端设置
 
-1. 克隆仓库
+1. **克隆仓库**
    ```bash
    git clone https://github.com/bright-cn/ai21labs-brightdata-template
    cd maestro-brightdata
    ```
 
-2. 创建虚拟环境
+2. **创建虚拟环境**
    ```bash
    python -m venv .venv
-   source .venv/bin/activate  # Windows 上使用： .venv\Scripts\activate
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
    ```
 
-3. 安装依赖
+3. **安装依赖项**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. 配置环境变量
+4. **配置环境**
    ```bash
    cp .env.example .env
-   # 编辑 .env 并添加你的 API 密钥
+   # Edit .env and add your API keys
    ```
 
-5. 启动 API 服务
+5. **启动 API 服务器**
    ```bash
    python api_server.py
    ```
 
-   🎉 **API 可通过 `http://localhost:8000` 访问**
+   🎉 **API 将在 `http://localhost:8000` 上可用**
 
 ### 前端设置
 
-1. 进入 UI 目录
+1. **进入 UI 目录**
    ```bash
    cd ui
    ```
 
-2. 安装依赖
+2. **安装依赖项**
    ```bash
    npm install
    ```
 
-3. 启动开发服务器
+3. **启动开发服务器**
    ```bash
    npm run dev
    ```
 
-   🎉 **Web 界面可通过 `http://localhost:5173` 访问**
+   🎉 **Web 界面将在 `http://localhost:5173` 上可用**
 
 ---
 
 ## 📖 API 文档
 
-后端启动后，访问 **`http://localhost:8000/docs`** 查看由 FastAPI 自动生成的交互式 API 文档（OpenAPI）。
+后端运行后，访问 **`http://localhost:8000/docs`** 即可查看由 FastAPI 自动生成 OpenAPI 的交互式 API 文档。
 
-### 关键端点
+### 主要端点
 
-| 方法 | 路径 | 说明 |
-|------|------|------|
-| `POST` | `/run` | 运行具备网页访问能力的 AI 智能体 |
-| `GET`  | `/status/{run_id}` | 获取指定运行的状态 |
-| `GET`  | `/runs` | 列出所有运行及其状态 |
-| `GET`  | `/tools` | 获取可用 Bright Data 工具信息 |
-| `POST` | `/quick-run` | 简化的基础查询端点 |
+| 方法 | 端点 | 说明 |
+|--------|----------|-------------|
+| `POST` | `/run` | 运行可访问网络的 AI 智能体 |
+| `GET` | `/status/{run_id}` | 获取特定运行任务的状态 |
+| `GET` | `/runs` | 列出所有运行任务及其状态 |
+| `GET` | `/tools` | 获取可用 Bright Data 工具的相关信息 |
+| `POST` | `/quick-run` | 用于基本查询的简化端点 |
 
 ---
 
 ## 🔧 可用工具
 
 ### 🆓 免费工具（快速模式）
-- 搜索引擎：抓取 Google、Bing 或 Yandex 的搜索结果
-- 网页抓取器：从任意网页提取干净的 Markdown
+- **搜索引擎** - 从 Google、Bing 或 Yandex 抓取搜索结果
+- **网页抓取工具** - 从任意网页提取整洁的 Markdown
 
-### 💎 专业工具（付费）
-- 电商：Amazon、Walmart、eBay、Home Depot、Zara、Etsy、Best Buy
-- 社媒：LinkedIn、Instagram、Twitter、TikTok、Facebook
-- 商业情报：ZoomInfo、Crunchbase、职位列表
-- 浏览器自动化：导航、点击、输入、截图
+### 💎 专业工具（高级版）
+- **电商** - Amazon、Walmart、eBay、Home Depot、Zara、Etsy、Best Buy
+- **社交媒体** - LinkedIn、Instagram、Twitter、TikTok、Facebook
+- **商业智能** - ZoomInfo、Crunchbase、职位列表
+- **浏览器自动化** - 浏览、点击、输入、截屏
 
 ---
 
 ## ⚙️ 配置
 
-### 智能体人格
-| 人格 | 描述 |
-|------|------|
-| Web Researcher | 专注网页数据研究的助理 |
-| Data Analyst | 面向数据分析任务的技术助理 |
-| Content Creator | 面向内容创作的创意助理 |
-| Technical Expert | 提供含来源的技术性详尽回答 |
+### 智能体个性
+| 个性 | 说明 |
+|-------------|-------------|
+| **网络研究员** | 专注于网络数据研究的实用助手 |
+| **数据分析师** | 处理数据分析任务的技术助手 |
+| **内容创作者** | 用于内容生成的创意助手 |
+| **技术专家** | 提供包含来源的详细技术回答 |
 
 ### 预算级别
 | 级别 | 资源 | 适用场景 |
-|------|------|----------|
-| 低 | 基础计算资源 | 简单查询 |
-| 中 | 标准计算资源 | 大多数用例 |
-| 高 | 最大计算资源 | 复杂分析 |
+|-------|-----------|----------|
+| **低** | 基础计算 | 简单查询 |
+| **中** | 标准计算 | 大多数使用场景 |
+| **高** | 最高计算能力 | 复杂分析 |
 
 ### 环境变量
 
 ```bash
-# 必填
+# Required
 AI21_LABS_KEY=your_ai21_labs_api_key_here
 BRIGHTDATA_TOKEN=your_brightdata_token_here
 
-# 选填
+# Optional
 PORT=8000
 HOST=0.0.0.0
 ```
@@ -239,19 +223,19 @@ HOST=0.0.0.0
 
 ```
 maestro-brightdata/
-├── 📄 api_server.py          # FastAPI 服务
-├── 📋 requirements.txt       # Python 依赖
-├── 🔧 .env.example          # 环境变量模板
-├── 🚫 .gitignore            # Git 忽略规则
-├── 📖 README.md             # 本文件
-└── 🎨 ui/                   # 前端 React 应用
+├── 📄 api_server.py          # FastAPI server
+├── 📋 requirements.txt       # Python dependencies
+├── 🔧 .env.example          # Environment variables template
+├── 🚫 .gitignore            # Git ignore rules
+├── 📖 README.md             # This file
+└── 🎨 ui/                   # Frontend React app
     ├── 📁 src/
-    │   ├── 🧩 components/   # 可复用 UI 组件
-    │   ├── 📄 pages/        # 页面组件
-    │   ├── ⚙️ config/       # 配置文件
-    │   └── 📝 types/        # TypeScript 类型定义
-    ├── 📦 package.json      # Node.js 依赖
-    └── ⚡ vite.config.ts    # Vite 配置
+    │   ├── 🧩 components/   # Reusable UI components
+    │   ├── 📄 pages/        # Page components
+    │   ├── ⚙️ config/       # Configuration files
+    │   └── 📝 types/        # TypeScript type definitions
+    ├── 📦 package.json      # Node.js dependencies
+    └── ⚡ vite.config.ts    # Vite configuration
 ```
 
 ---
@@ -260,10 +244,10 @@ maestro-brightdata/
 
 ### 后端开发
 ```bash
-# 自动重载运行
+# Run with auto-reload
 uvicorn api_server:app --reload --host 0.0.0.0 --port 8000
 
-# 代码格式化
+# Format code
 black .
 isort .
 ```
@@ -272,16 +256,16 @@ isort .
 ```bash
 cd ui
 
-# 启动带热重载的开发服务器
+# Development server with hot reload
 npm run dev
 
-# 生产构建
+# Build for production
 npm run build
 
-# 预览生产构建
+# Preview production build
 npm run preview
 
-# 代码检查
+# Lint code
 npm run lint
 ```
 
@@ -289,57 +273,57 @@ npm run lint
 
 ## 🤝 参与贡献
 
-我们欢迎你的参与！无论是：
+我们非常期待你的参与！无论是以下哪种方式，我们都希望让参与此项目的贡献过程尽可能简单、透明：
 
-- 🐛 提交 Bug
-- 💡 讨论当前实现
+- 🐛 报告错误
+- 💡 讨论代码的当前状态
 - 🚀 提交修复
-- 💫 提出新功能
+- 💫 提议新功能
 - 🎯 成为维护者
 
 ### 开发流程
 
-1. Fork 本仓库
+1. Fork 仓库
 2. 创建功能分支（`git checkout -b feature/amazing-feature`）
-3. 完成功能开发
-4. 运行测试与代码检查
-5. 提交变更（`git commit -m 'Add some amazing feature'`）
-6. 推送到远程（`git push origin feature/amazing-feature`）
-7. 提交 Pull Request
+3. 进行更改
+4. 运行测试和代码检查
+5. 提交更改（`git commit -m 'Add some amazing feature'`）
+6. 推送到分支（`git push origin feature/amazing-feature`）
+7. 创建 Pull Request
 
-### 拉取请求指南
+### Pull Request 指南
 
 - 遵循现有代码风格
-- 为新功能补充测试
-- 需要时更新文档
-- 确保所有测试通过
+- 为新功能添加测试
+- 根据需要更新文档
+- 确保所有测试均通过
 
 ---
 
 ## 📄 许可证
 
-本项目基于 MIT 许可证开源，详见 [LICENSE](LICENSE)。
+本项目采用 MIT 许可证，详情请参阅 [LICENSE](LICENSE) 文件。
 
 ```
-MIT License - 欢迎将此模板用于你的项目！
+MIT License - feel free to use this template for your own projects!
 ```
 
 ---
 
 ## 🙏 致谢
 
-特别感谢以下优秀团队与项目：
+特别感谢成就此模板的优秀团队和项目：
 
-- 🤖 [AI21 Labs](https://ai21.com/) - 强大的 Maestro 平台
-- 🌐 [Bright Data](https://www.bright.cn/) - 全面的网页数据采集工具
-- 🎨 [HeroUI](https://heroui.com/) - 优雅易用的组件库
-- ⚡ [FastAPI](https://fastapi.tiangolo.com/) - 高效卓越的 Web 框架
-- ⚛️ [React 团队](https://reactjs.org/) - 出色的前端库
-- 🎯 [Vite](https://vitejs.dev/) - 闪电般快速的构建工具
+- 🤖 [**AI21 Labs**](https://ai21.com/) - 提供强大的 Maestro 平台
+- 🌐 [**Bright Data**](https://www.bright.cn/) - 提供全面的网络数据采集工具
+- 🎨 [**HeroUI**](https://heroui.com/) - 提供美观且无障碍的组件库
+- ⚡ [**FastAPI**](https://fastapi.tiangolo.com/) - 提供出色且快速的 Web 框架
+- ⚛️ [**React 团队**](https://reactjs.org/) - 提供卓越的前端库
+- 🎯 [**Vite**](https://vitejs.dev/) - 提供极速构建工具
 
 ---
 
-## 🔗 相关链接
+## 🔗 实用链接
 
 - 📚 [AI21 Maestro 文档](https://docs.ai21.com/docs/maestro-overview)
 - 🌐 [Bright Data 平台文档](https://docs.brightdata.com/)
@@ -350,10 +334,10 @@ MIT License - 欢迎将此模板用于你的项目！
 
 <div align="center">
 
-如果这个模板对你有帮助，欢迎点亮一颗 Star！
+**⭐ 如果此模板对你有所帮助，请考虑点亮一颗星！**
 
-[![GitHub stars](https://img.shields.io/github/stars/bright-cn/ai21labs-brightdata-template.svg?style=social&label=Star)](https://github.com/bright-cn/ai21labs-brightdata-template)
+[![GitHub 星标](https://img.shields.io/github/stars/brightdata/ai21labs-brightdata-template.svg?style=social&label=Star)](https://github.com/bright-cn/ai21labs-brightdata-template)
 
-由 Bright Data 与 AI21 Labs 社区倾情打造 ❤️
+由 Bright Data 和 AI21 Labs 社区用 ❤️ 打造
 
 </div>
